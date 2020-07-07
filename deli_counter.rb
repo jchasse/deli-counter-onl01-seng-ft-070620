@@ -8,6 +8,6 @@ def line(array)
     queue = array.each_with_index do |name, index|
       " #{index+1}. #{name}"
     end
-    puts "The line is currently: #{queue}"
+    puts "The line is currently: #{queue.join}"
   end
 end
