@@ -16,4 +16,3 @@ end
 def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{array.size} in line."
 end
-  
