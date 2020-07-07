@@ -13,9 +13,12 @@ def line(array)
   end
 end
 
+
 def take_a_number(array, name)
   puts "Welcome, #{name}. You are number #{(array.size)} in line."
+  array << "name"
 end
+
 
 def now_serving(array)
   if array.size == 0
